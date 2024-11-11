@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digga - Your German Learning Buddy</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Welcome to Digga!</h1>
+    <div id="chatbox">
+        <p id="digga-intro">Hey! I’m Digga, your Berlin buddy for learning German. What’s your level, A1 to C1?</p>
+        <input type="text" id="user-input" placeholder="Type your response here...">
+        <button onclick="sendMessage()">Send</button>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
